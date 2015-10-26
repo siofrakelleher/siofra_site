@@ -8,7 +8,7 @@ date: 25-10-2015
 markdown_extra: true
 ---
 
-In case you haven’t noticed, I’m a big advocate for getting girls interested in STEM. So I’m always on the lookout for new projects, organisation or products that aim to fulfill this gender gap in the stem industry. When I was younger there was nothing like this to get me interested in stem, it was my dad and my older brother that made me curious. Not all girls have this opportunity. Recently while I was looking at the madewithcode.com youtube (another amazing intiative to make girls interested in stem) I came across jewelbots.
+In case you haven’t noticed, I’m a big advocate for getting girls interested in STEM. So I’m always on the lookout for new projects, organisation or products that aim to fulfill this gender gap in the stem industry. When I was younger there was nothing like this to get me interested in stem, it was my dad and my older brother that made me curious. Not all girls have this opportunity. Recently while I was looking at the madewithcode.com youtube (another amazing intiative to make girls interested in STEM) I came across jewelbots.
 
 What is jewelbots you ask? Well they're wearable friendship bracelets that allow girls (and boys) to code messages to send over bluetooth to their friends jewelbots bracelets on their computer or smartphone. The most exciting thing about these bracelets is that they’re opensource, so you and I can code our own messages outside of the app using an arduino IDE so the bracelets can alert us when someone tweets or when we have to leave for school.
 
