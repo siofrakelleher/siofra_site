@@ -32,7 +32,16 @@
       <ul class="clearing-thumbs" data-clearing>
         {% for image in page.media.images %}
           <li>
-            {{ image.lightbox(640,480).cropResize(213,160).html }}
+            {% set sw = random(5) %}
+            {% if (sw==0) %}
+                {{ image.lightbox(640,480).colorize(75,-50,90).cropResize(213,160).html }}
+            {% elseif (sw==1) %}
+                {{ image.lightbox(640,480).sepia().colorize(55,60,40).cropResize(213,160).html }}
+            {% elseif (sw==2) %}
+                {{ image.lightbox(640,480).colorize(-25,30,40).cropResize(213,160).html }}
+            {% else %}
+              {{ image.lightbox(640,480).cropResize(213,160).html }}
+            {% endif %}
           </li>
         {% endfor %}
       </ul>
