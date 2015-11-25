@@ -26,9 +26,7 @@
   <!-- {% if page.header.image %}<img src="{{ page.media[page.header.image].url }}" alt="cover-image" />{% endif %} -->
 
     <article class="summer-post-content post">
-      <!-- <div>
-        {{ content }}
-      </div> -->
+      
       <ul class="clearing-thumbs" data-clearing>
         {% for image in page.media.images %}
           <li>
@@ -49,6 +47,9 @@
     <div class="cf"></div>
     <br />
 
+      <div>
+        {{ content }}
+      </div>
     {% include 'partials/footer.html.twig' %}
     <div class="cf"></div>
   </main> 
